@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank-Application</title>
+<style>
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+       
+a{
+padding-left:20px;
+padding-right:10px;
+text-decoration: none;
+}
+.req::after{
+content:"*";
+color:red;
+font-size:20px;
+}
+
+</style>
+</head>
+<body>
+<center> 
+<h1 style='color:red'>SDFC-BANK</h1>
+		<h2>Extraordinary Services</h2>
+		<h3> <a href="Home.html">Home</a>
+		<a href="NewAccount.html">NewAccount</a>
+		<a href="Balance.html">Balance</a>
+		<a href="Deposite.html">Deposit</a>
+		<a href="Withdraw.html">WithDraw</a>
+		<a href="Transfer.html">transfer</a>
+		<a href="Close.html">Close A/c</a>
+		<a href="About.html">AboutUs</a></h3>
+		<h1 >Balance Enqury</h1>
+		<form action="Balance" method="post">
+		<table>
+		<tr>
+			<td><label class="req">Account Number</label>:</td>
+			<td><input type="text" name="acc" required></td>
+		</tr>
+		<tr>
+			<td><label class="req">Name </label>:</td>
+			<td><input type="text" name="name" required></td>
+		</tr>
+		<tr>
+			<td><label class="req">Password </label>:</td>
+			<td><input type="text" name="pwd" required></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Done"></td>
+			<td><input type="reset" value="clear"></td> 
+		</tr>
+		</table>
+		</form>
+</center>
+</body>
+</html>
